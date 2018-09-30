@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "datavisualization-218001",
+  "private_key_id": "29478d70e6ee1d41e24638f36739afe0569ad1c4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7EBprytmaQB6a\nePq99ysaw6k40l26wzeZDp/OqEYBNNyvECTnO7S3BPqXgcRR4fuILuwapM16yHvT\naKQfWDIRJxzlw+Kg6FD7Dk0VOv7489PZUr+RjLsIlqMQVQhk3z33v4gmu9dixS2x\n2S0cNuxxiItW6Vzo/oB9Bmuzl1qUjKvNHbd5K1Nkd7RiX+JlMnSRXk2rAd8Pg+8U\nd7skFAzr8wh6ZNf5M+Q8TymLFk+GykImsJ6EdUGuBNumJkQ3NbZ/8MO6s6/w+gD+\ntCNq+GQ0oot5PcwBhYwOfudlLYXXlLeUkB3MqjGUVxdzjkTb0SlaXL3xAmoLI+HY\nnq9Y1IFLAgMBAAECggEAK3Q6LwAYPHTYpxmjZa2dHcKF9OUpUNE4gR2cke0VFgKp\noSEm8XA1Mq69Z6SFbmAIhkIgJrBR60vXN+z+8ykRuFpVpCo04xwUc72Gun/R6xL5\nC2rlhXIjoIMdrhWStZwGUR71Ccpo5lDXpJDGod9AXb9SXwYmxxkXz/NF4ZovOIJu\n2t7t98VWMqYb2jfntjaS92eSJ9CPwyLfWK4P80bGvsEK4EismnW0zy0lMhT76Yr4\n9lGmmJoeICwwgb6QeI5f3BNHjlnhTddydkkmXIkZl0RmqUCm1K3+Lv4jnPQGsR/L\nNupH8CXivLcyU9ieTbpaQ1Pmf86CijdAnhX/R21JwQKBgQDxo21xmTGjGIwQb+71\nPkeu8mayTtPILRWI3vRw9JM5ac7kMrJa30+KPaEKznvjZ/XuEozpMaxMGMs+PP1g\n7+p+GwLKl77us4Rdmn3JO1wGxGz8QGTdkVjUCEuHeZTnOwZZ8XZfielK1rTk+tBP\nMVDZcRvJDz02R94LOiw7o2l1FwKBgQDGLky19KL0Xb1jo4vu7rb10JBmgJco+61z\nEEsMSCSCKaCvFkRdkdlVNFKR5xOHL0KYqhcdaEwB669yZc/uDiPuojhN3Amcp3O/\n8uHK9NUqcoenedWRH4NwX5Y00grnb+tiO48RWyOYAA5e8rTGnDsIP6Y5BgH3wK/L\nxGgA3jyd7QKBgQDK5CJdI/hdrZrNom7OVQDzkG1SgoWoqtJOHoa44WNM7d7eFQNU\n8fRjauPxova7Nut0fvb6Rs8ZBiiBlcxavJf0UtHBMjELVIhr3/CGKuVWeU/ZbmhC\n8mvXfS+ODTROA22N0AVIqw/L2wQAz+hg1lPAgAyIgdcv4KA8ZRgG62r8+QKBgA4E\nGkLIIXo84vcYCv6D/YaXEI9fStGIMzUvEs+0jnhyLz4SyhUACqnfAHP3LsdhzUj0\nxpu6051TKN5jWvhQIbRv3qGLDVb59NK/f76V4DmXTgbHNBaGbwpUiFAGBuVlYfVZ\nlv24P2Uxo9KNQcHGLNqhfcUMqrj19LjplB1zmj/lAoGBALSdZdeQDDHoifgMEWxb\n4nh+e+fE7/x62p7oLTpnC7M0mN4iZxAAsAb8WXmmMKt3xfjg3ejTpSHeHxRqawom\nzgd+tOskjEtaMeOO/ZgqxTydH0TwGi0vKUNH6kJfCvTmtN7GMwKDYPnGbNG4W0AI\n4rQcrxkc9m0hy+EGgluCP8GM\n-----END PRIVATE KEY-----\n",
+  "client_email": "datadogservice@datavisualization-218001.iam.gserviceaccount.com",
+  "client_id": "109886027790806865058",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/datadogservice%40datavisualization-218001.iam.gserviceaccount.com"
+}

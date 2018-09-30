@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="initial-scale=1.0, width=device-width" />
+<link rel="stylesheet" type="text/css" href="https://js.api.here.com/v3/3.0/mapsjs-ui.css?dp-version=1533195059" />
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-core.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-service.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-ui.js"></script>
+<script type="text/javascript" src="https://js.api.here.com/v3/3.0/mapsjs-mapevents.js"></script>
+
+</head>
+<body>
+  <div id="map" style="width: 100%; height: 800px; background: grey" />
+  <script  type="text/javascript" charset="UTF-8" >
+    
+
+/**
+ * Adds markers to the map highlighting the locations of the captials of
+ * France, Italy, Germany, Spain and the United Kingdom.
+ *
+ * @param  {H.Map} map      A HERE Map instance within the application
+ */
+
+
+
+function addMarkersToMap(map) {
+  var latByLine = [40.77, 40.662174, 40.62694, 40.69819, 40.83504, 40.597786, 40.65097, 40.735077, 40.870842, 40.751587, 40.85206, 40.770332, 40.776104, 40.86528, 40.683037, 40.733437, 40.816864, 40.75775, 40.649525, 40.632095, 40.72681, 40.75392, 40.81932, 40.76649, 40.89702, 40.616413, 40.692947, 40.656273, 40.68067, 40.840435, 40.700203, 40.69468, 40.65823, 40.83918, 40.709023, 40.650387, 40.81439, 40.69447, 40.84587, 40.853813, 40.732037,40.74087, 40.67226, 40.69366, 40.75666, 40.725616, 40.714428]
+
+  var longByLine = [-73.91, -73.953705, -74.16427, -73.96191, -73.88685, -74.110306, -73.94639, -73.99757, -73.86718, -73.97643, -73.82664, -73.87608, -73.97975, -73.83121, -73.96478, -73.86418, -73.882744, -73.92771, -73.98072, -73.91861, -73.75004, -73.942276, -73.904854, -73.95696, -73.85969, -74.103516, -73.99373, -73.90731, -73.885826, -73.879906, -73.94434, -73.852554, -74.00035, -73.94115, -73.798195, -73.95872, -73.9375, -73.90638, -73.911446, -73.90851, -73.814926, -73.99564, -73.87557, -73.85217, -73.83378, -73.851036, -73.751976]
+  var step;
+  for (step = 0; step < 45; step++) {
+    // Runs 50 times, with values of step 0 through 49.
+    var Marker = new H.map.Marker({lat:latByLine[step], lng:longByLine[step]});
+    map.addObject(Marker);
+    //console.log(latByLine[step], longByLine[step]);
+  }
+}
+
+
+
+/**
+ * Boilerplate map initialization code starts below:
+ */
+
+//Step 1: initialize communication with the platform
+var platform = new H.service.Platform({
+  app_id: 'CxvD0nO7mJtCCBe2LlKQ',
+  app_code: 'e2Dxolb6It73hZLnEWuwig',
+  useHTTPS: true
+});
+var pixelRatio = window.devicePixelRatio || 1;
+var defaultLayers = platform.createDefaultLayers({
+  tileSize: pixelRatio === 1 ? 256 : 512,
+  ppi: pixelRatio === 1 ? undefined : 320
+});
+
+//Step 2: initialize a map - this map is centered over Europe
+var map = new H.Map(document.getElementById('map'),
+  defaultLayers.normal.map,{
+  center: {lat:'40.71', lng:'-73.90'},
+  zoom: 12,
+  pixelRatio: pixelRatio
+});
+
+//Step 3: make the map interactive
+// MapEvents enables the event system
+// Behavior implements default interactions for pan/zoom (also on mobile touch environments)
+var behavior = new H.mapevents.Behavior(new H.mapevents.MapEvents(map));
+
+// Create the default UI components
+var ui = H.ui.UI.createDefault(map, defaultLayers);
+
+// Now use the map as required...
+addMarkersToMap(map);
+  </script>
+</body>
+</html>
