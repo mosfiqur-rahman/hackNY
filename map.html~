@@ -11,8 +11,8 @@
 	<script>
 	// Initialize the platform object:
 	var platform = new H.service.Platform({
-		'app_id': 'e',
-		'app_code': 'e'
+		'app_id': 'CxvD0nO7mJtCCBe2LlKQ',
+		'app_code': 'e2Dxolb6It73hZLnEWuwig'
 	});
 
 	// Obtain the default map types from the platform object

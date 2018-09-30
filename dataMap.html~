@@ -44,8 +44,8 @@ function addMarkersToMap(map) {
 
 //Step 1: initialize communication with the platform
 var platform = new H.service.Platform({
-  app_id: 'e',
-  app_code: 'e',
+  app_id: 'CxvD0nO7mJtCCBe2LlKQ',
+  app_code: 'e2Dxolb6It73hZLnEWuwig',
   useHTTPS: true
 });
 var pixelRatio = window.devicePixelRatio || 1;
